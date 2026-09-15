@@ -1,0 +1,3 @@
+[submodule "lib/atlas-automata"]
+	path = lib/atlas-automata
+	url = https://github.com/equilaterus/atlas-automata.git

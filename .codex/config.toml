@@ -1,0 +1,4 @@
+
+[mcp_servers.atlas]
+command = "/home/dacanizares/source/juegos-peliculas-series/.atlas/bin/atlas-mcp"
+args = ["--root", "/home/dacanizares/source/juegos-peliculas-series"]
