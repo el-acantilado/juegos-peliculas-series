@@ -2,11 +2,11 @@
 
 ## Entidades y ciclo de vida
 
-Hay tres colecciones independientes: juegos, películas y series. Cada archivo representa una obra y la evaluación vigente del usuario, no una sesión ni un evento.
+Hay tres colecciones independientes: juegos, películas y series. Cada archivo representa una obra y la evaluación vigente del usuario, no una sesión ni un evento. Dentro de cada medio, la carpeta `positivos`, `mixtos`, `negativos` o `pendientes` expresa la función recomendadora de la valoración.
 
 Un registro se crea cuando el usuario aporta una opinión o quiere conservar una obra pendiente. Se actualiza cuando cambia o se precisa el veredicto. No hay estados administrativos de archivo. Solo se elimina cuando el usuario lo solicita o se confirma un duplicado; Git conserva el historial.
 
-Las obras pendientes pueden registrarse, pero no aportan evidencia al perfil hasta que exista una valoración sustentada por experiencia suficiente.
+Las obras pendientes pueden registrarse, pero no aportan evidencia al perfil hasta que exista una valoración sustentada por experiencia suficiente. Cuando cambia la banda de valoración, el mismo registro se mueve a la partición correspondiente; no se crea una copia.
 
 ## Esquema común
 
@@ -121,7 +121,8 @@ Antes de crear:
 
 Validaciones:
 
-- `tipo` debe coincidir con la carpeta.
+- `tipo` debe coincidir con la carpeta del medio.
+- La ruta debe coincidir con la banda: 7–10 en `positivos`, 6 en `mixtos`, 1–5 en `negativos` y ausencia de valoración en `pendientes`.
 - `valoracion` debe ser un entero de 1 a 10.
 - `experiencia` usa únicamente los tres valores definidos.
 - Una obra sin experiencia suficiente puede omitir `valoracion`.
