@@ -3,4 +3,5 @@
 
 ## Records
 
+- [brothers-a-tale-of-two-sons](brothers-a-tale-of-two-sons.md)
 - [pathologic-2](pathologic-2.md)
