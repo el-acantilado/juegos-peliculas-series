@@ -52,7 +52,11 @@ data/
 │   ├── negativos/
 │   └── pendientes/
 └── perfil/
-    └── index.md
+    ├── index.md
+    ├── juegos.md
+    ├── peliculas.md
+    ├── series.md
+    └── general.md
 ```
 
 Git no conserva carpetas vacías. Por eso las carpetas de películas o series aparecerán cuando reciban su primer registro; desde ese momento Atlas creará también su `index.md`.
@@ -63,7 +67,10 @@ Git no conserva carpetas vacías. Por eso las carpetas de películas o series ap
 - `mixtos/`: valoración 6.
 - `negativos/`: valoración 1–5.
 - `pendientes/`: sin valoración, normalmente con experiencia parcial o sin experimentar.
-- `data/perfil/`: reglas generales declaradas por el usuario; no son obras.
+- `data/perfil/juegos.md`: perfil único de juegos.
+- `data/perfil/peliculas.md`: perfil único de películas.
+- `data/perfil/series.md`: perfil único de series.
+- `data/perfil/general.md`: estilos visuales y rasgos transversales.
 
 Si una valoración cambia de banda, el registro se mueve mediante `atlas_move`. No se copia ni se duplica.
 
@@ -72,7 +79,10 @@ Si una valoración cambia de banda, el registro se mueve mediante `atlas_move`. 
 - `data/juegos/<particion>/<slug>.md`
 - `data/peliculas/<particion>/<slug>.md`
 - `data/series/<particion>/<slug>.md`
-- `data/perfil/<slug>.md`
+- `data/perfil/juegos.md`
+- `data/perfil/peliculas.md`
+- `data/perfil/series.md`
+- `data/perfil/general.md`
 
 El slug se deriva del título original si existe; de lo contrario, del título usado por el usuario. Se escribe en minúsculas ASCII, usa guiones entre palabras y elimina signos. Si hay colisión, se añade el año o una edición breve.
 
@@ -81,7 +91,7 @@ Ejemplos:
 - `data/juegos/positivos/goldeneye-007.md`
 - `data/juegos/negativos/dishonored.md`
 - `data/juegos/pendientes/system-shock-remake.md`
-- `data/perfil/aventuras-graficas.md`
+- `data/perfil/juegos.md`
 
 ## Índices de carpeta
 
