@@ -10,3 +10,4 @@
 - [fez](fez.md)
 - [kingdom-two-crowns](kingdom-two-crowns.md)
 - [prodeus](prodeus.md)
+- [signalis](signalis.md)
