@@ -5,6 +5,7 @@
 
 - [fallen-aces](fallen-aces.md)
 - [hotline-miami](hotline-miami.md)
+- [hyper-light-drifter](hyper-light-drifter.md)
 - [katana-zero](katana-zero.md)
 - [nine-sols](nine-sols.md)
 - [super-mario-64](super-mario-64.md)
