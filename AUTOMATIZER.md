@@ -1,5 +1,5 @@
 ---
-atlas_setup: migration
+atlas_setup: complete
 atlas_setup_version: 1
 ---
 
