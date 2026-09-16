@@ -3,6 +3,7 @@
 
 ## Directories
 
+- [mixtos/](mixtos/index.md)
 - [positivos/](positivos/index.md)
 
 ## Records
@@ -14,7 +15,6 @@
 - [fallen-aces](fallen-aces.md)
 - [fez](fez.md)
 - [hotline-miami](hotline-miami.md)
-- [intravenous-2](intravenous-2.md)
 - [kingdom-two-crowns](kingdom-two-crowns.md)
 - [prodeus](prodeus.md)
 - [signalis](signalis.md)
