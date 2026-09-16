@@ -4,6 +4,7 @@
 ## Records
 
 - [aventuras-graficas](aventuras-graficas.md)
+- [general](general.md)
 - [juegos](juegos.md)
 - [peliculas](peliculas.md)
 - [ritmo-y-respuesta](ritmo-y-respuesta.md)
