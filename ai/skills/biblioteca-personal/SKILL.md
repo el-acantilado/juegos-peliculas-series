@@ -1,41 +1,75 @@
 ---
 name: biblioteca-personal
-description: Gestionar y consultar la biblioteca personal de juegos, películas y series de este repositorio.
+description: Gestionar, consultar y usar para recomendaciones la biblioteca personal de juegos, películas y series.
 ---
 
-# Biblioteca personal
+# Biblioteca personal de recomendaciones
 
-Usa esta habilidad cuando el usuario quiera añadir, editar, eliminar, consultar, comparar u organizar juegos, películas o series que le gustan.
+Usa esta habilidad cuando el usuario quiera añadir, editar, eliminar, consultar o comparar obras, construir su perfil o NO-perfil, o recibir recomendaciones.
 
 ## Antes de actuar
 
-1. Ejecuta `atlas_sync`.
-2. Lee `AUTOMATIZER.md` y `doc/modelo-biblioteca.md`.
-3. Busca registros existentes bajo `data/` antes de crear uno nuevo.
-4. Si la identidad de la obra o la intención del usuario es ambigua, pregunta antes de mutar.
+1. Ejecuta `atlas_sync` y `atlas_status`.
+2. Si el setup no está completo, aplica íntegramente `configure` antes de escribir datos.
+3. Lee `AUTOMATIZER.md`, `doc/domain/model.md`, `doc/domain/indexing.md` y `doc/domain/operations.md`.
+4. Lee los registros relacionados bajo `data/`, incluidos perfiles generales.
+5. Busca duplicados y resuelve identidades ambiguas antes de mutar.
 
-## Escritura
+## Escritura protegida
 
-Toda escritura en `AUTOMATIZER.md`, `data/`, `doc/`, `ai/` o `log/` se hace exclusivamente con las herramientas Atlas:
+Toda escritura en `AUTOMATIZER.md`, `data/`, `doc/`, `ai/` o `log/` se hace exclusivamente mediante `atlas_create`, `atlas_update`, `atlas_delete` o `atlas_move`.
 
-- `atlas_create` para un registro nuevo.
-- `atlas_update` para reemplazar el contenido completo de un registro.
-- `atlas_delete` para eliminarlo cuando el usuario lo pida claramente.
-- `atlas_move` para corregir su ruta o identidad.
-
-Incluye siempre un resumen semántico breve. Una operación Atlas modifica un archivo protegido cada vez; realiza cambios relacionados de forma secuencial.
+Cada mutación cambia un archivo y lleva un resumen semántico. No reinterpretes datos históricos silenciosamente.
 
 ## Registro de obras
 
-- Guarda un archivo por obra en la carpeta correspondiente a su tipo.
-- Sigue exactamente el modelo documentado.
-- Registra primero lo que el usuario afirma.
-- No inventes valoraciones, estados, plataformas ni razones personales.
-- Los metadatos objetivos pueden completarse solo cuando estén suficientemente verificados; distingue cualquier inferencia.
-- Omite campos opcionales desconocidos.
-- Conserva el lenguaje y los matices de la opinión del usuario.
-- Antes de añadir una traducción o edición distinta, comprueba si pertenece a una obra ya registrada.
+- Guarda un archivo por obra en la colección correspondiente.
+- Sigue el esquema documentado y omite campos opcionales desconocidos.
+- Conserva el lenguaje y los matices del usuario.
+- No inventes puntuaciones, experiencia, rejugabilidad, metadatos ni razones.
+- Solo aplica conversiones cualitativas a números cuando el usuario haya aprobado el mapeo.
+- Un pendiente puede registrarse sin valoración y no pesa en el perfil.
+- En juegos, resume mecánicas, dificultad, ritmo, controles y estructura dentro de `jugabilidad`.
+- Usa `positivo`, `negativo`, `fricciones` y `detalles` según su semántica; no añadas campos ad hoc si uno existente basta.
+- Una edición o plataforma no duplica la obra salvo que represente una experiencia que el usuario quiera valorar por separado.
 
-## Consultas
+## Reglas generales
 
-Lee directamente los archivos necesarios bajo `data/`. Explica los filtros aplicados y señala datos ausentes que puedan afectar el resultado. No alteres la biblioteca durante una consulta salvo que el usuario también pida guardar cambios.
+Guarda en `data/perfil/` las preferencias declaradas que abarcan varias obras. Una regla general puede contener:
+
+- ámbito;
+- preferencia;
+- condiciones o matices;
+- ejemplos aportados;
+- consecuencias para recomendaciones.
+
+No copies la misma regla completa en cada obra relacionada.
+
+## Consultas de perfil
+
+- Separa juegos, películas y series.
+- Perfil positivo: valoraciones 7–10, graduadas según la escala.
+- NO-perfil: valoraciones 1–5, con mayor señal negativa cuanto más baja la nota.
+- Valoración 6: evidencia ambivalente.
+- Registros sin veredicto: peso cero.
+- Calcula confianza a partir de experiencia, claridad y cantidad de evidencia; no la presentes como dato aportado por el usuario.
+- Fundamenta cada patrón con obras concretas y señala excepciones.
+
+## Recomendaciones
+
+1. Lee tanto el perfil positivo como el NO-perfil del medio.
+2. Busca coincidencias, conflictos y fricciones; no te limites a géneros.
+3. En juegos, presta atención a ritmo, respuesta, repetición, espera, RNG y variedad cuando la evidencia los haga relevantes.
+4. Para consultas multimedia usa rasgos comparables de `detalles`, manteniendo explícitas las diferencias entre medios.
+5. Explica por qué la recomendación podría encajar, los riesgos y la confianza.
+6. Distingue datos conocidos de inferencias y verifica información externa cambiante cuando sea necesaria.
+7. No alteres la biblioteca durante una consulta salvo que el usuario también solicite guardar algo.
+
+## Validación final
+
+Después de mutar:
+
+- comprueba que el archivo cumple el modelo;
+- vuelve a ejecutar `atlas_status`;
+- confirma que Git está limpio y publicado;
+- informa exactamente qué cambió.
