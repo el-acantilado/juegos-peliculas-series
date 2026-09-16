@@ -5,4 +5,5 @@
 
 - [conscript](conscript.md)
 - [darkest-dungeon](darkest-dungeon.md)
+- [dishonored-2](dishonored-2.md)
 - [dishonored](dishonored.md)
