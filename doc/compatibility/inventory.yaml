@@ -1,0 +1,35 @@
+version: 1
+reviewed_on: 2026-09-16
+overall: CONVERTIBLE
+summary: >
+  La configuración preliminar describía una biblioteca de favoritos. Se convierte
+  en un sistema de recomendaciones con perfil positivo, NO-perfil y candidatos
+  pendientes. No existían registros de dominio, por lo que no hay migración ni
+  pérdida de datos.
+items:
+  - area: propósito
+    classification: COMPATIBLE
+    previous: Conservar juegos, películas y series que gustan al usuario.
+    current: Conservar evidencia positiva, negativa y pendiente para recomendar.
+    action: Ampliación documentada del propósito.
+  - area: esquema
+    classification: CONVERTIBLE
+    previous: Estado, géneros, plataformas, etiquetas y metadatos descriptivos.
+    current: Valoración, experiencia, repetición, opinión, positivo, negativo, fricciones, detalles y jugabilidad.
+    action: Sustitución segura porque data estaba vacío.
+  - area: rutas
+    classification: COMPATIBLE
+    previous: Un archivo por obra bajo data/juegos, data/peliculas o data/series.
+    current: Se mantienen esas rutas y se añade data/perfil para reglas generales.
+    action: Sin migración.
+  - area: indexación
+    classification: SAFE
+    previous: Sin índice autoritativo.
+    current: Registros autoritativos y ausencia deliberada de índices duplicados.
+    action: Documentación explícita.
+  - area: automatizaciones externas
+    classification: SAFE
+    previous: Ninguna.
+    current: Ninguna.
+    action: No aplicable.
+unresolved: []
