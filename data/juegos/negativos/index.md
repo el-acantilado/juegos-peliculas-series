@@ -4,3 +4,4 @@
 ## Records
 
 - [conscript](conscript.md)
+- [darkest-dungeon](darkest-dungeon.md)

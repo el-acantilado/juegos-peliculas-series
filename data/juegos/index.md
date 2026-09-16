@@ -9,7 +9,6 @@
 
 ## Records
 
-- [darkest-dungeon](darkest-dungeon.md)
 - [dishonored-2](dishonored-2.md)
 - [dishonored](dishonored.md)
 - [fallen-aces](fallen-aces.md)
