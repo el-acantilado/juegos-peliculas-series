@@ -14,5 +14,4 @@
 - [super-mario-64](super-mario-64.md)
 - [system-shock-remake](system-shock-remake.md)
 - [system-shock](system-shock.md)
-- [wizordum](wizordum.md)
 - [you-will-die-here-tonight](you-will-die-here-tonight.md)
