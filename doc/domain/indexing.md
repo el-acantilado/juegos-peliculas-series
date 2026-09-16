@@ -1,18 +1,16 @@
-# Identidad, rutas e indexación
+# Identidad, partición e índices
 
 ## Accesos esperados
 
 El sistema debe poder:
 
 - Encontrar una obra por título o variante.
-- Filtrar y ordenar por medio, valoración y experiencia.
-- Buscar texto en opinión, aspectos positivos, negativos, fricciones, detalles y jugabilidad.
-- Separar señales del perfil positivo y del NO-perfil.
-- Explicar por qué una obra puede gustar o no.
+- Navegar por medio y por función recomendadora.
+- Separar inmediatamente perfil positivo, zona mixta, NO-perfil y pendientes.
+- Filtrar y ordenar por valoración y experiencia.
+- Buscar texto en opinión, positivo, negativo, fricciones, detalles y jugabilidad.
 - Comparar rasgos entre juegos, películas y series sin confundir sus perfiles.
-- Mantener candidatos pendientes sin que influyan en recomendaciones.
-
-La escala prevista es personal y pequeña o mediana. La lectura directa de Markdown es suficiente.
+- Detectar duplicados aunque los registros estén en particiones distintas.
 
 ## Identidad y duplicados
 
@@ -22,49 +20,83 @@ La clave conceptual es:
 
 Cuando falten título original o año, se usa el título conocido y se pregunta ante posibles colisiones. Diferentes plataformas no crean registros distintos. Un remake sí es una obra distinta. Una edición se separa únicamente si el usuario quiere conservar valoraciones materialmente diferentes.
 
-La detección de duplicados compara, sin distinguir mayúsculas ni tildes:
+Antes de crear o mover un registro se buscan, sin distinguir mayúsculas ni tildes:
 
 - título principal;
 - título original;
 - slug;
-- año, edición o plataforma cuando desambigüen.
+- año, edición o plataforma cuando desambigüen;
+- coincidencias en todas las particiones del mismo medio.
+
+## Árbol físico aprobado
+
+```text
+data/
+├── index.md
+├── juegos/
+│   ├── index.md
+│   ├── positivos/
+│   ├── mixtos/
+│   ├── negativos/
+│   └── pendientes/
+├── peliculas/
+│   ├── index.md
+│   ├── positivos/
+│   ├── mixtos/
+│   ├── negativos/
+│   └── pendientes/
+├── series/
+│   ├── index.md
+│   ├── positivos/
+│   ├── mixtos/
+│   ├── negativos/
+│   └── pendientes/
+└── perfil/
+    └── index.md
+```
+
+Git no conserva carpetas vacías. Por eso las carpetas de películas o series aparecerán cuando reciban su primer registro; desde ese momento Atlas creará también su `index.md`.
+
+## Regla de partición
+
+- `positivos/`: valoración 7–10.
+- `mixtos/`: valoración 6.
+- `negativos/`: valoración 1–5.
+- `pendientes/`: sin valoración, normalmente con experiencia parcial o sin experimentar.
+- `data/perfil/`: reglas generales declaradas por el usuario; no son obras.
+
+Si una valoración cambia de banda, el registro se mueve mediante `atlas_move`. No se copia ni se duplica.
 
 ## Rutas canónicas
 
-- `data/juegos/<slug>.md`
-- `data/peliculas/<slug>.md`
-- `data/series/<slug>.md`
-- `data/perfil/<slug>.md` para reglas generales declaradas por el usuario.
+- `data/juegos/<particion>/<slug>.md`
+- `data/peliculas/<particion>/<slug>.md`
+- `data/series/<particion>/<slug>.md`
+- `data/perfil/<slug>.md`
 
-El slug se deriva del título original si existe; de lo contrario, del título usado por el usuario. Se escribe en minúsculas ASCII, reemplaza separadores por guiones y elimina signos. Si hay colisión, se añade el año o una edición breve.
+El slug se deriva del título original si existe; de lo contrario, del título usado por el usuario. Se escribe en minúsculas ASCII, usa guiones entre palabras y elimina signos. Si hay colisión, se añade el año o una edición breve.
 
 Ejemplos:
 
-- `data/juegos/goldeneye-007.md`
-- `data/juegos/system-shock-remake.md`
+- `data/juegos/positivos/goldeneye-007.md`
+- `data/juegos/negativos/dishonored.md`
+- `data/juegos/pendientes/system-shock-remake.md`
 - `data/perfil/aventuras-graficas.md`
 
-## Organización física
+## Índices de carpeta
 
-Cada obra ocupa un archivo. La carpeta representa el tipo. No se replica el registro en carpetas de favoritos, pendientes o descartados; esas vistas se calculan mediante filtros.
+Atlas MCP reserva y mantiene automáticamente un `index.md` en cada carpeta existente bajo `data/`.
 
-Los archivos de `data/perfil/` almacenan reglas generales que no pertenecen a una sola obra y que ayudan a interpretar recomendaciones.
+Cada índice:
 
-## Autoridad e índices
+- enlaza únicamente las subcarpetas y registros inmediatos;
+- se actualiza en el mismo commit que una creación, movimiento o eliminación;
+- se ordena de forma determinista;
+- no contiene hechos de dominio independientes;
+- no se edita manualmente mediante Atlas.
 
-Los registros bajo `data/` son la única fuente autoritativa. No existe un índice manual con copias de títulos, puntuaciones o rasgos.
+Los registros de obras y reglas de perfil siguen siendo la fuente autoritativa. Los `index.md` son navegación reproducible dentro de `data/`.
 
-Por ahora no se genera ningún índice porque la escala no lo justifica. Las consultas usan búsqueda de archivos y texto. Si el volumen futuro lo exige, los índices reproducibles deberán escribirse bajo `bin/indexes/`, nunca bajo `data/`.
+## Índices adicionales
 
-## Reconstrucción futura
-
-Cualquier índice futuro deberá:
-
-1. Eliminar y reconstruir únicamente su salida conocida bajo `bin/indexes/`.
-2. Leer todos los registros válidos de `data/`.
-3. Ordenar de forma determinista por tipo, título normalizado y ruta.
-4. Incluir en su cabecera el comando exacto de reconstrucción.
-5. No introducir información que no exista en las fuentes.
-6. Poder regenerarse sin modificar archivos protegidos.
-
-Como hoy no hay script ni índice generado, la reconstrucción es no aplicable.
+No se requieren índices adicionales ni `bin/indexes/`. La partición física y los índices de carpeta responden a las consultas previstas sin duplicar datos.
