@@ -1,5 +1,5 @@
 ---
-atlas_setup: complete
+atlas_setup: in_progress
 atlas_setup_version: 1
 ---
 
