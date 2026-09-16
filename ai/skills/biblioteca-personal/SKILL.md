@@ -12,7 +12,7 @@ Usa esta habilidad cuando el usuario quiera añadir, editar, eliminar, consultar
 1. Ejecuta `atlas_sync` y `atlas_status`.
 2. Si el setup no está completo, aplica íntegramente `configure` antes de escribir datos.
 3. Lee `AUTOMATIZER.md`, `doc/domain/model.md`, `doc/domain/indexing.md` y `doc/domain/operations.md`.
-4. Lee los registros relacionados bajo `data/`, incluidos perfiles generales.
+4. Lee los registros relacionados bajo `data/` y el perfil único del medio; lee `data/perfil/general.md` cuando la consulta sea transversal o visual.
 5. Busca duplicados y resuelve identidades ambiguas antes de mutar.
 
 ## Escritura protegida
@@ -35,17 +35,16 @@ Cada mutación solicitada cambia un registro y lleva un resumen semántico. Atla
 - Usa `positivo`, `negativo`, `fricciones` y `detalles` según su semántica; no añadas campos ad hoc si uno existente basta.
 - Una edición o plataforma no duplica la obra salvo que represente una experiencia que el usuario quiera valorar por separado.
 
-## Reglas generales
+## Perfiles
 
-Guarda en `data/perfil/` las preferencias declaradas que abarcan varias obras. Una regla general puede contener:
+Usa únicamente estos cuatro archivos:
 
-- ámbito;
-- preferencia;
-- condiciones o matices;
-- ejemplos aportados;
-- consecuencias para recomendaciones.
+- `data/perfil/juegos.md`
+- `data/perfil/peliculas.md`
+- `data/perfil/series.md`
+- `data/perfil/general.md`
 
-No copies la misma regla completa en cada obra relacionada.
+Cada perfil de medio concentra sus reglas y evidencia declarada. `general.md` guarda estilos visuales y otros rasgos comparables entre medios. Actualiza el perfil correspondiente; no crees archivos de regla individuales ni copies la misma regla en obras relacionadas.
 
 ## Consultas de perfil
 
