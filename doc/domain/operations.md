@@ -2,7 +2,7 @@
 
 ## Fuente autoritativa
 
-Los archivos bajo `data/` son autoritativos. Las respuestas, perfiles y recomendaciones son vistas calculadas y no se guardan como hechos independientes.
+Los registros de obras y reglas bajo `data/` son autoritativos. Los `index.md` de carpeta son navegación generada por Atlas y no contienen hechos independientes. Las respuestas, perfiles y recomendaciones son vistas calculadas.
 
 ## Vistas derivadas
 
@@ -68,9 +68,9 @@ No hay monedas, unidades temporales ni reglas de redondeo aplicables. Las puntua
 3. Registrar literalmente el veredicto y sus matices.
 4. Aplicar una valoración solo si fue dada o si el usuario aprobó explícitamente una conversión.
 5. Omitir campos desconocidos.
-6. Validar el esquema.
-7. Mutar un archivo mediante Atlas.
-8. Verificar estado limpio y publicado.
+6. Elegir la partición según la valoración: `positivos`, `mixtos`, `negativos` o `pendientes`.
+7. Crear, actualizar o mover un archivo mediante Atlas; el MCP mantiene los `index.md` automáticamente.
+8. Verificar la ruta, los índices, el estado limpio y la publicación.
 
 ## Flujo para recomendar
 
@@ -88,4 +88,5 @@ No hay monedas, unidades temporales ni reglas de redondeo aplicables. Las puntua
 - Dashboards: no aplicable a la escala actual.
 - Recordatorios: no aplicable.
 - Procesos recurrentes: no hay ninguno.
-- Índices generados: no hay ninguno; si aparecen, se ubican en `bin/indexes/` y se regeneran conforme a `indexing.md`.
+- Índices de carpeta: Atlas los mantiene automáticamente bajo `data/`.
+- Índices adicionales y `bin/indexes/`: no aplicable; no se requieren.
