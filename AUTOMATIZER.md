@@ -35,11 +35,12 @@ Queda fuera:
 
 ## Colecciones
 
-- `data/juegos/`: un registro por videojuego.
-- `data/peliculas/`: un registro por película.
-- `data/series/`: un registro por serie.
+- `data/juegos/<positivos|mixtos|negativos|pendientes>/`: un registro por videojuego.
+- `data/peliculas/<positivos|mixtos|negativos|pendientes>/`: un registro por película.
+- `data/series/<positivos|mixtos|negativos|pendientes>/`: un registro por serie.
+- `data/perfil/`: reglas generales que atraviesan varias obras.
 
-Cada registro representa la evaluación vigente de una obra. Git conserva su historia. Las obras no se duplican por edición o plataforma salvo que el usuario quiera valorar experiencias materialmente distintas.
+Cada registro representa la evaluación vigente de una obra. La partición expresa su función recomendadora: 7–10 positivo, 6 mixto, 1–5 negativo y sin valoración pendiente. Git conserva su historia. Las obras no se duplican por edición o plataforma salvo que el usuario quiera valorar experiencias materialmente distintas.
 
 ## Principios de recomendación
 
@@ -59,13 +60,14 @@ Cada registro representa la evaluación vigente de una obra. Git conserva su his
 - Los archivos protegidos se modifican únicamente mediante Atlas.
 - La sincronización Git usa fusiones; nunca rebase ni push forzado.
 - Los conflictos se comunican y no se resuelven silenciosamente.
-- No existen índices autoritativos duplicados: las vistas se derivan de los registros.
+- Atlas mantiene un `index.md` navegable en cada carpeta existente bajo `data/`; no se edita manualmente.
+- No se usan índices adicionales ni `bin/indexes/`.
 
 ## Configuración aprobada
 
 - [x] Propósito, límites, privacidad y lenguaje.
 - [x] Colecciones, ciclos de vida y relaciones.
-- [x] Recuperación, identidad, rutas e indexación.
+- [x] Recuperación, identidad, árbol físico e índices de carpeta.
 - [x] Esquema, taxonomía, validación y datos ausentes.
 - [x] Vistas, cálculos y flujos operativos.
 - [x] Compatibilidad con la configuración preliminar.
