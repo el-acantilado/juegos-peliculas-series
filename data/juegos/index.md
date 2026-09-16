@@ -10,7 +10,6 @@
 ## Records
 
 - [dishonored-2](dishonored-2.md)
-- [dishonored](dishonored.md)
 - [fallen-aces](fallen-aces.md)
 - [fez](fez.md)
 - [hotline-miami](hotline-miami.md)
