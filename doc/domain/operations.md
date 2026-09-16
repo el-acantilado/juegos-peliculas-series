@@ -2,7 +2,7 @@
 
 ## Fuente autoritativa
 
-Los registros de obras y reglas bajo `data/` son autoritativos. Los `index.md` de carpeta son navegación generada por Atlas y no contienen hechos independientes. Las respuestas, perfiles y recomendaciones son vistas calculadas.
+Los registros de obras y los cuatro perfiles bajo `data/perfil/` son autoritativos. Los `index.md` de carpeta son navegación generada por Atlas y no contienen hechos independientes. Las respuestas y recomendaciones son vistas calculadas.
 
 ## Vistas derivadas
 
@@ -75,7 +75,7 @@ No hay monedas, unidades temporales ni reglas de redondeo aplicables. Las puntua
 ## Flujo para recomendar
 
 1. Determinar el medio solicitado o si la consulta es multimedia.
-2. Leer obras positivas, negativas, ambivalentes y reglas generales relevantes.
+2. Leer obras positivas, negativas, ambivalentes y el perfil único del medio; para rasgos visuales o cruces, leer también `data/perfil/general.md`.
 3. Separar hechos conocidos de inferencias.
 4. Contrastar candidatos con perfil y NO-perfil.
 5. Explicar coincidencias, riesgos y confianza.
