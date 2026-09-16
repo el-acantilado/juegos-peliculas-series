@@ -21,6 +21,5 @@
 - [super-mario-64](super-mario-64.md)
 - [system-shock-remake](system-shock-remake.md)
 - [system-shock](system-shock.md)
-- [team-fortress-2](team-fortress-2.md)
 - [wizordum](wizordum.md)
 - [you-will-die-here-tonight](you-will-die-here-tonight.md)
