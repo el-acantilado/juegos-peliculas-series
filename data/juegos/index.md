@@ -10,5 +10,4 @@
 
 ## Records
 
-- [system-shock-remake](system-shock-remake.md)
 - [you-will-die-here-tonight](you-will-die-here-tonight.md)
