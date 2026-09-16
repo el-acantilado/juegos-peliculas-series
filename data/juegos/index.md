@@ -4,11 +4,11 @@
 ## Directories
 
 - [mixtos/](mixtos/index.md)
+- [negativos/](negativos/index.md)
 - [positivos/](positivos/index.md)
 
 ## Records
 
-- [conscript](conscript.md)
 - [darkest-dungeon](darkest-dungeon.md)
 - [dishonored-2](dishonored-2.md)
 - [dishonored](dishonored.md)
