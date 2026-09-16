@@ -38,7 +38,10 @@ Queda fuera:
 - `data/juegos/<positivos|mixtos|negativos|pendientes>/`: un registro por videojuego.
 - `data/peliculas/<positivos|mixtos|negativos|pendientes>/`: un registro por película.
 - `data/series/<positivos|mixtos|negativos|pendientes>/`: un registro por serie.
-- `data/perfil/`: reglas generales que atraviesan varias obras.
+- `data/perfil/juegos.md`: perfil único de juegos.
+- `data/perfil/peliculas.md`: perfil único de películas.
+- `data/perfil/series.md`: perfil único de series.
+- `data/perfil/general.md`: estilos visuales y otros rasgos transversales.
 
 Cada registro representa la evaluación vigente de una obra. La partición expresa su función recomendadora: 7–10 positivo, 6 mixto, 1–5 negativo y sin valoración pendiente. Git conserva su historia. Las obras no se duplican por edición o plataforma salvo que el usuario quiera valorar experiencias materialmente distintas.
 
