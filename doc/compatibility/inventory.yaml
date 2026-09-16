@@ -2,38 +2,38 @@ version: 1
 reviewed_on: 2026-09-16
 overall: COMPATIBLE
 summary: >
-  La biblioteca evoluciona desde archivos planos por medio hacia una partición
-  por función recomendadora. Los registros conservan íntegramente su contenido;
-  únicamente cambian de ruta y Atlas añade índices navegables de carpeta.
+  Los perfiles evolucionan de reglas individuales a cuatro archivos canónicos:
+  juegos, películas, series y general. Las reglas existentes de juegos se
+  consolidan literalmente en el perfil de juegos; no se pierde información.
 items:
   - area: propósito
     classification: COMPATIBLE
-    previous: Conservar juegos, películas y series que gustan al usuario.
-    current: Conservar evidencia positiva, negativa, mixta y pendiente para recomendar.
-    action: Ampliación documentada del propósito.
-  - area: esquema
+    previous: Conservar evidencia para recomendaciones.
+    current: Sin cambio.
+    action: Ninguna.
+  - area: esquema de obras
     classification: COMPATIBLE
     previous: Valoración, experiencia, opinión y rasgos por obra.
-    current: Se conserva el mismo esquema.
+    current: Sin cambio.
     action: Ninguna reinterpretación.
-  - area: rutas
+  - area: rutas de obras
     classification: COMPATIBLE
-    previous: data/<medio>/<slug>.md
-    current: data/<medio>/<positivos|mixtos|negativos|pendientes>/<slug>.md
-    action: Mover cada registro según su valoración sin cambiar su contenido.
-  - area: indexación
+    previous: data/<medio>/<positivos|mixtos|negativos|pendientes>/<slug>.md
+    current: Sin cambio.
+    action: Ninguna.
+  - area: perfiles
     classification: COMPATIBLE
-    previous: Sin índices de carpeta.
-    current: Atlas mantiene un index.md navegable en cada carpeta existente bajo data.
-    action: Los índices se crean durante la migración mediante atlas_move.
-  - area: perfil
+    previous: Reglas independientes bajo data/perfil/<slug>.md.
+    current: data/perfil/juegos.md, peliculas.md, series.md y general.md.
+    action: Consolidar las dos reglas existentes en juegos.md y eliminar solo sus archivos fuente.
+  - area: estilos visuales
     classification: SAFE
-    previous: Reglas generales bajo data/perfil.
-    current: Se conserva data/perfil y Atlas añade su índice de carpeta.
-    action: Sin cambio semántico.
-  - area: indices_adicionales
-    classification: SAFE
-    previous: Posibles índices futuros bajo bin/indexes.
-    current: No se usan índices adicionales ni bin/indexes.
-    action: Eliminar esa propuesta de la documentación.
+    previous: Sin perfil transversal dedicado.
+    current: data/perfil/general.md.
+    action: Crear archivo vacío de preferencias no afirmadas.
+  - area: indices
+    classification: COMPATIBLE
+    previous: index.md enlazaba reglas individuales.
+    current: Atlas actualiza index.md al crear y eliminar los cuatro perfiles.
+    action: Automático mediante MCP.
 unresolved: []
