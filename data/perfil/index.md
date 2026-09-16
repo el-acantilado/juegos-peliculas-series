@@ -7,3 +7,4 @@
 - [juegos](juegos.md)
 - [peliculas](peliculas.md)
 - [ritmo-y-respuesta](ritmo-y-respuesta.md)
+- [series](series.md)
