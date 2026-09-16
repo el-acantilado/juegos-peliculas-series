@@ -10,7 +10,6 @@
 ## Records
 
 - [fallen-aces](fallen-aces.md)
-- [fez](fez.md)
 - [hotline-miami](hotline-miami.md)
 - [kingdom-two-crowns](kingdom-two-crowns.md)
 - [prodeus](prodeus.md)
