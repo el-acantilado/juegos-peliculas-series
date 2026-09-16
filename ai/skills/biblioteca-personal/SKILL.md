@@ -19,11 +19,13 @@ Usa esta habilidad cuando el usuario quiera añadir, editar, eliminar, consultar
 
 Toda escritura en `AUTOMATIZER.md`, `data/`, `doc/`, `ai/` o `log/` se hace exclusivamente mediante `atlas_create`, `atlas_update`, `atlas_delete` o `atlas_move`.
 
-Cada mutación cambia un archivo y lleva un resumen semántico. No reinterpretes datos históricos silenciosamente.
+Cada mutación solicitada cambia un registro y lleva un resumen semántico. Atlas puede actualizar además los `index.md` administrados de las carpetas afectadas dentro del mismo commit. Nunca edites esos índices directamente ni reinterpretes datos históricos silenciosamente.
 
 ## Registro de obras
 
-- Guarda un archivo por obra en la colección correspondiente.
+- Guarda un archivo por obra bajo `data/<medio>/<particion>/`.
+- Usa `positivos` para 7–10, `mixtos` para 6, `negativos` para 1–5 y `pendientes` cuando no hay valoración.
+- Si cambia la banda, usa `atlas_move`; nunca copies el registro.
 - Sigue el esquema documentado y omite campos opcionales desconocidos.
 - Conserva el lenguaje y los matices del usuario.
 - No inventes puntuaciones, experiencia, rejugabilidad, metadatos ni razones.
@@ -69,7 +71,8 @@ No copies la misma regla completa en cada obra relacionada.
 
 Después de mutar:
 
-- comprueba que el archivo cumple el modelo;
+- comprueba que el archivo cumple el modelo y está en la partición correcta;
+- comprueba que los `index.md` de la ruta enlazan el registro;
 - vuelve a ejecutar `atlas_status`;
 - confirma que Git está limpio y publicado;
 - informa exactamente qué cambió.
