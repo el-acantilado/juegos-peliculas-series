@@ -7,4 +7,5 @@
 - [commander-keen-4](commander-keen-4.md)
 - [commandos-2](commandos-2.md)
 - [forestrike](forestrike.md)
+- [goldeneye-007](goldeneye-007.md)
 - [pathologic-2](pathologic-2.md)

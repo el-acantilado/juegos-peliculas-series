@@ -13,7 +13,6 @@
 - [dishonored](dishonored.md)
 - [fallen-aces](fallen-aces.md)
 - [fez](fez.md)
-- [goldeneye-007](goldeneye-007.md)
 - [hotline-miami](hotline-miami.md)
 - [intravenous-2](intravenous-2.md)
 - [kingdom-two-crowns](kingdom-two-crowns.md)
