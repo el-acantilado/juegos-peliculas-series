@@ -5,6 +5,7 @@
 
 - [fallen-aces](fallen-aces.md)
 - [hotline-miami](hotline-miami.md)
+- [katana-zero](katana-zero.md)
 - [super-mario-64](super-mario-64.md)
 - [system-shock-remake](system-shock-remake.md)
 - [system-shock](system-shock.md)
