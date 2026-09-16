@@ -11,7 +11,6 @@
 
 - [fallen-aces](fallen-aces.md)
 - [hotline-miami](hotline-miami.md)
-- [kingdom-two-crowns](kingdom-two-crowns.md)
 - [prodeus](prodeus.md)
 - [signalis](signalis.md)
 - [super-mario-64](super-mario-64.md)

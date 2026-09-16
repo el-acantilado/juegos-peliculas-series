@@ -8,3 +8,4 @@
 - [dishonored-2](dishonored-2.md)
 - [dishonored](dishonored.md)
 - [fez](fez.md)
+- [kingdom-two-crowns](kingdom-two-crowns.md)
