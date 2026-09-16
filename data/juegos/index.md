@@ -19,7 +19,6 @@
 - [prodeus](prodeus.md)
 - [signalis](signalis.md)
 - [super-mario-64](super-mario-64.md)
-- [super-mario-world](super-mario-world.md)
 - [system-shock-remake](system-shock-remake.md)
 - [system-shock](system-shock.md)
 - [team-fortress-2](team-fortress-2.md)
