@@ -106,7 +106,7 @@ Los valores son frases breves en español. Se reutiliza la misma formulación cu
 
 Cada obra aporta señales a un perfil positivo o a un NO-perfil de su propio medio según su valoración, experiencia y explicación. Las consultas multimedia comparan `detalles` y otros rasgos semánticamente compatibles, pero conservan las diferencias entre medios.
 
-Las reglas generales declaradas por el usuario, como preferencias de género condicionadas, se documentan en un registro de perfil bajo `data/perfil/`; explican varias obras sin duplicar la misma afirmación en cada registro.
+Los perfiles se guardan exclusivamente en cuatro archivos bajo `data/perfil/`: `juegos.md`, `peliculas.md`, `series.md` y `general.md`. Cada perfil de medio concentra sus reglas declaradas y evidencia transversal de ese medio. `general.md` concentra estilos visuales y otros rasgos comparables entre medios. No se crean archivos de regla individuales.
 
 ## Identidad y validación
 
