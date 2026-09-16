@@ -1,5 +1,5 @@
 ---
-atlas_setup: in_progress
+atlas_setup: migration
 atlas_setup_version: 1
 ---
 
