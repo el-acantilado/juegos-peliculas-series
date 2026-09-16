@@ -7,7 +7,6 @@
 
 ## Records
 
-- [commandos-2](commandos-2.md)
 - [conscript](conscript.md)
 - [darkest-dungeon](darkest-dungeon.md)
 - [dishonored-2](dishonored-2.md)
