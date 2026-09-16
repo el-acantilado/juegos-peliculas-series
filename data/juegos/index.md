@@ -5,11 +5,11 @@
 
 - [mixtos/](mixtos/index.md)
 - [negativos/](negativos/index.md)
+- [pendientes/](pendientes/index.md)
 - [positivos/](positivos/index.md)
 
 ## Records
 
-- [fallen-aces](fallen-aces.md)
 - [hotline-miami](hotline-miami.md)
 - [super-mario-64](super-mario-64.md)
 - [system-shock-remake](system-shock-remake.md)
