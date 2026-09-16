@@ -70,4 +70,4 @@ Cada registro representa la evaluación vigente de una obra. Git conserva su his
 - [x] Vistas, cálculos y flujos operativos.
 - [x] Compatibilidad con la configuración preliminar.
 - [x] Propuesta final aprobada explícitamente.
-- [ ] Artefactos persistidos y verificados.
+- [x] Artefactos persistidos y verificados.
