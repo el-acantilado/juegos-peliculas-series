@@ -8,6 +8,7 @@
 - [commandos-2](commandos-2.md)
 - [doom-1993](doom-1993.md)
 - [dusk](dusk.md)
+- [f-e-a-r](f-e-a-r.md)
 - [forestrike](forestrike.md)
 - [goldeneye-007](goldeneye-007.md)
 - [pathologic-2](pathologic-2.md)
