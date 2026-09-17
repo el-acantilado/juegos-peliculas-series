@@ -6,6 +6,7 @@
 - [chants-of-sennaar](chants-of-sennaar.md)
 - [fallen-aces](fallen-aces.md)
 - [hotline-miami](hotline-miami.md)
+- [huntdown](huntdown.md)
 - [hyper-light-drifter](hyper-light-drifter.md)
 - [katana-zero](katana-zero.md)
 - [minishoot-adventures](minishoot-adventures.md)
