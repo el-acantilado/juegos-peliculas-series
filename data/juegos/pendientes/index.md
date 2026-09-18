@@ -3,6 +3,7 @@
 
 ## Records
 
+- [blade-runner](blade-runner.md)
 - [chants-of-sennaar](chants-of-sennaar.md)
 - [fallen-aces](fallen-aces.md)
 - [hotline-miami](hotline-miami.md)
