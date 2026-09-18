@@ -10,5 +10,6 @@
 - [fez](fez.md)
 - [prodeus](prodeus.md)
 - [rayman-legends](rayman-legends.md)
+- [sid-meiers-civilization](sid-meiers-civilization.md)
 - [signalis](signalis.md)
 - [wizordum](wizordum.md)
