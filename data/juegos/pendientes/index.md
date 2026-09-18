@@ -15,6 +15,7 @@
 - [super-mario-64](super-mario-64.md)
 - [system-shock-remake](system-shock-remake.md)
 - [system-shock](system-shock.md)
+- [the-case-of-the-golden-idol](the-case-of-the-golden-idol.md)
 - [tunic](tunic.md)
 - [turbo-overkill](turbo-overkill.md)
 - [ultrakill](ultrakill.md)
