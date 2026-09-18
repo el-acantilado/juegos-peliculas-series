@@ -26,6 +26,7 @@
 - [kingdom-two-crowns](kingdom-two-crowns.md)
 - [machinarium](machinarium.md)
 - [pathologic-2](pathologic-2.md)
+- [plants-vs-zombies](plants-vs-zombies.md)
 - [quake-1996](quake-1996.md)
 - [return-of-the-obra-dinn](return-of-the-obra-dinn.md)
 - [rise-of-the-triad](rise-of-the-triad.md)
