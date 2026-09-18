@@ -5,6 +5,7 @@
 
 - [black-mesa](black-mesa.md)
 - [blade-runner](blade-runner.md)
+- [call-of-juarez-gunslinger](call-of-juarez-gunslinger.md)
 - [chants-of-sennaar](chants-of-sennaar.md)
 - [cocoon](cocoon.md)
 - [ctrl-alt-ego](ctrl-alt-ego.md)
