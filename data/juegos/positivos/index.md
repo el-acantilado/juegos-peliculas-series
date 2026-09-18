@@ -16,6 +16,7 @@
 - [forestrike](forestrike.md)
 - [fortunes-foundation](fortunes-foundation.md)
 - [goldeneye-007](goldeneye-007.md)
+- [half-life](half-life.md)
 - [kill-the-crows](kill-the-crows.md)
 - [machinarium](machinarium.md)
 - [pathologic-2](pathologic-2.md)
