@@ -15,6 +15,7 @@
 - [forestrike](forestrike.md)
 - [fortunes-foundation](fortunes-foundation.md)
 - [goldeneye-007](goldeneye-007.md)
+- [kill-the-crows](kill-the-crows.md)
 - [machinarium](machinarium.md)
 - [pathologic-2](pathologic-2.md)
 - [return-of-the-obra-dinn](return-of-the-obra-dinn.md)
