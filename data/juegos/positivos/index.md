@@ -18,6 +18,7 @@
 - [kill-the-crows](kill-the-crows.md)
 - [machinarium](machinarium.md)
 - [pathologic-2](pathologic-2.md)
+- [quake-1996](quake-1996.md)
 - [return-of-the-obra-dinn](return-of-the-obra-dinn.md)
 - [rise-of-the-triad](rise-of-the-triad.md)
 - [simcity-3000](simcity-3000.md)
