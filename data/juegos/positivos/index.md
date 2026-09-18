@@ -11,6 +11,7 @@
 - [dusk](dusk.md)
 - [f-e-a-r](f-e-a-r.md)
 - [forestrike](forestrike.md)
+- [fortunes-foundation](fortunes-foundation.md)
 - [goldeneye-007](goldeneye-007.md)
 - [pathologic-2](pathologic-2.md)
 - [return-of-the-obra-dinn](return-of-the-obra-dinn.md)
