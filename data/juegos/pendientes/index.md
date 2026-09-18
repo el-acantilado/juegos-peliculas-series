@@ -14,6 +14,7 @@
 - [cultic](cultic.md)
 - [door-kickers-2-task-force-north](door-kickers-2-task-force-north.md)
 - [fallen-aces](fallen-aces.md)
+- [gravity-circuit](gravity-circuit.md)
 - [hotline-miami](hotline-miami.md)
 - [huntdown](huntdown.md)
 - [hyper-light-drifter](hyper-light-drifter.md)
