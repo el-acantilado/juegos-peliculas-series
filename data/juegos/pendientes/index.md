@@ -7,6 +7,7 @@
 - [blade-runner](blade-runner.md)
 - [bulletstorm-full-clip-edition](bulletstorm-full-clip-edition.md)
 - [call-of-juarez-gunslinger](call-of-juarez-gunslinger.md)
+- [celeste](celeste.md)
 - [chants-of-sennaar](chants-of-sennaar.md)
 - [cocoon](cocoon.md)
 - [ctrl-alt-ego](ctrl-alt-ego.md)
