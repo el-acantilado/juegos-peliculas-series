@@ -9,6 +9,7 @@
 - [batman-arkham-city](batman-arkham-city.md)
 - [braid](braid.md)
 - [brothers-a-tale-of-two-sons](brothers-a-tale-of-two-sons.md)
+- [call-of-juarez-bound-in-blood](call-of-juarez-bound-in-blood.md)
 - [call-of-juarez](call-of-juarez.md)
 - [commander-keen-4](commander-keen-4.md)
 - [commandos-2](commandos-2.md)
