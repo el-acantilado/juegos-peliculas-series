@@ -1,13 +1,13 @@
 ---
 tipo: juego
 titulo: Kingdom Two Crowns
-valoracion: 5
+valoracion: 7
 experiencia: jugado
-opinion: Muy lento.
+opinion: "Se torna muy lento."
 negativo:
   - ritmo muy lento
 fricciones:
   - demasiada espera
-jugabilidad: La interacción avanza con demasiada lentitud.
+jugabilidad: La interacción se torna muy lenta.
 ---
 # Kingdom Two Crowns
