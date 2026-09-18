@@ -27,4 +27,5 @@
 - [tunic](tunic.md)
 - [turbo-overkill](turbo-overkill.md)
 - [ultrakill](ultrakill.md)
+- [vanquish](vanquish.md)
 - [you-will-die-here-tonight](you-will-die-here-tonight.md)
