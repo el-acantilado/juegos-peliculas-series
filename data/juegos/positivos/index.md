@@ -31,6 +31,7 @@
 - [machinarium](machinarium.md)
 - [pathologic-2](pathologic-2.md)
 - [plants-vs-zombies](plants-vs-zombies.md)
+- [portal-2](portal-2.md)
 - [portal](portal.md)
 - [quake-1996](quake-1996.md)
 - [return-of-the-obra-dinn](return-of-the-obra-dinn.md)
