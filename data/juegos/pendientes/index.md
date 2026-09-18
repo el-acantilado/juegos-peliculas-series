@@ -5,6 +5,7 @@
 
 - [blade-runner](blade-runner.md)
 - [chants-of-sennaar](chants-of-sennaar.md)
+- [door-kickers-2-task-force-north](door-kickers-2-task-force-north.md)
 - [fallen-aces](fallen-aces.md)
 - [hotline-miami](hotline-miami.md)
 - [huntdown](huntdown.md)
