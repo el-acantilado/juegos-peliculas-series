@@ -19,6 +19,7 @@
 - [half-life-2](half-life-2.md)
 - [half-life](half-life.md)
 - [kill-the-crows](kill-the-crows.md)
+- [kingdom-two-crowns](kingdom-two-crowns.md)
 - [machinarium](machinarium.md)
 - [pathologic-2](pathologic-2.md)
 - [quake-1996](quake-1996.md)

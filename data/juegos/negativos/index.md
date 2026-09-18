@@ -8,7 +8,6 @@
 - [dishonored-2](dishonored-2.md)
 - [dishonored](dishonored.md)
 - [fez](fez.md)
-- [kingdom-two-crowns](kingdom-two-crowns.md)
 - [prodeus](prodeus.md)
 - [rayman-legends](rayman-legends.md)
 - [signalis](signalis.md)
