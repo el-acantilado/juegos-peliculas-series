@@ -5,6 +5,7 @@
 
 - [black-mesa](black-mesa.md)
 - [blade-runner](blade-runner.md)
+- [bulletstorm-full-clip-edition](bulletstorm-full-clip-edition.md)
 - [call-of-juarez-gunslinger](call-of-juarez-gunslinger.md)
 - [chants-of-sennaar](chants-of-sennaar.md)
 - [cocoon](cocoon.md)
