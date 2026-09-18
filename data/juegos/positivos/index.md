@@ -37,3 +37,4 @@
 - [tom-clancys-rainbow-six-3-raven-shield](tom-clancys-rainbow-six-3-raven-shield.md)
 - [tom-clancys-rainbow-six-rogue-spear](tom-clancys-rainbow-six-rogue-spear.md)
 - [tom-clancys-rainbow-six](tom-clancys-rainbow-six.md)
+- [tony-hawks-pro-skater-1-plus-2](tony-hawks-pro-skater-1-plus-2.md)
