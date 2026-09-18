@@ -10,6 +10,7 @@
 - [commander-keen-4](commander-keen-4.md)
 - [commandos-2](commandos-2.md)
 - [doom-1993](doom-1993.md)
+- [duke-nukem-3d](duke-nukem-3d.md)
 - [dusk](dusk.md)
 - [f-e-a-r](f-e-a-r.md)
 - [forestrike](forestrike.md)
