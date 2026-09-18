@@ -22,6 +22,7 @@
 - [minishoot-adventures](minishoot-adventures.md)
 - [nine-sols](nine-sols.md)
 - [severed-steel](severed-steel.md)
+- [starcraft-ii-wings-of-liberty](starcraft-ii-wings-of-liberty.md)
 - [super-mario-64](super-mario-64.md)
 - [system-shock-remake](system-shock-remake.md)
 - [system-shock](system-shock.md)
