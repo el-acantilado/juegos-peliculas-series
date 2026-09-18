@@ -15,6 +15,7 @@
 - [doom-1993](doom-1993.md)
 - [duke-nukem-3d](duke-nukem-3d.md)
 - [dusk](dusk.md)
+- [eagle-eye-mysteries](eagle-eye-mysteries.md)
 - [f-e-a-r](f-e-a-r.md)
 - [forestrike](forestrike.md)
 - [fortunes-foundation](fortunes-foundation.md)
