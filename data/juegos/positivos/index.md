@@ -21,6 +21,7 @@
 - [f-e-a-r](f-e-a-r.md)
 - [forestrike](forestrike.md)
 - [fortunes-foundation](fortunes-foundation.md)
+- [golden-axe](golden-axe.md)
 - [goldeneye-007](goldeneye-007.md)
 - [gravity-bone](gravity-bone.md)
 - [half-life-2](half-life-2.md)
