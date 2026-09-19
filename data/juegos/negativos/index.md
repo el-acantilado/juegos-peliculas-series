@@ -13,5 +13,6 @@
 - [rayman-legends](rayman-legends.md)
 - [sid-meiers-civilization](sid-meiers-civilization.md)
 - [signalis](signalis.md)
+- [teenage-mutant-ninja-turtles-shredders-revenge](teenage-mutant-ninja-turtles-shredders-revenge.md)
 - [the-case-of-the-golden-idol](the-case-of-the-golden-idol.md)
 - [wizordum](wizordum.md)
