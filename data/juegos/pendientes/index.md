@@ -25,6 +25,7 @@
 - [neon-white](neon-white.md)
 - [nine-sols](nine-sols.md)
 - [patricks-parabox](patricks-parabox.md)
+- [pseudoregalia](pseudoregalia.md)
 - [severed-steel](severed-steel.md)
 - [starcraft-ii-wings-of-liberty](starcraft-ii-wings-of-liberty.md)
 - [super-mario-64](super-mario-64.md)
