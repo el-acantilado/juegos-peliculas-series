@@ -5,6 +5,7 @@
 
 - [age-of-empires-ii](age-of-empires-ii.md)
 - [another-world](another-world.md)
+- [balatro](balatro.md)
 - [batman-arkham-asylum](batman-arkham-asylum.md)
 - [batman-arkham-city](batman-arkham-city.md)
 - [braid](braid.md)
