@@ -15,6 +15,7 @@
 - [door-kickers-2-task-force-north](door-kickers-2-task-force-north.md)
 - [fallen-aces](fallen-aces.md)
 - [gravity-circuit](gravity-circuit.md)
+- [hades-ii](hades-ii.md)
 - [hades](hades.md)
 - [hotline-miami](hotline-miami.md)
 - [huntdown](huntdown.md)
