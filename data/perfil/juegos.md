@@ -32,6 +32,16 @@ No se debe inferir afinidad por otros juegos únicamente porque sean de Blendo G
 
 **Stardew Valley** tiene una valoración de 5 porque se siente muy lento. Las experiencias deliberadamente pausadas son un riesgo claro si no sostienen el ritmo mediante una interacción suficientemente atractiva.
 
+## Estilo visual y nivel de acabado
+
+El estilo visual importa tanto como la propuesta mecánica. No basta con que un juego tenga sistemas interesantes si su presentación se percibe como chatarra, demasiado cruda, barata o propia de un nicho raro.
+
+No rechazo automáticamente lo antiguo, lo retro o lo estilizado: **Doom**, **Quake**, **Another World** y otros juegos antiguos son favoritos. El problema es una estética o presentación poco convincente que no se siente cohesionada ni suficientemente acabada.
+
+**Taiji** ya está adquirido pero su presentación todavía no me convence. **Pseudoregalia** queda pendiente con la misma duda. **AMID EVIL** genera dudas por su estilo y por el posible diseño laberíntico de sus niveles. **Animal Well** no me interesa.
+
+Al recomendar, filtrar primero por estilo, cohesión visual y nivel de acabado. No sugerir rarezas de nicho o producciones deliberadamente ásperas únicamente porque sus mecánicas coincidan sobre el papel.
+
 ## Zelda
 
 **The Legend of Zelda: Ocarina of Time** es un favorito personal de 10/10.
@@ -42,5 +52,6 @@ Los demás juegos de Zelda no me han convencido. Ocarina of Time debe tratarse c
 
 - **Elden Ring**: no.
 - **Red Dead Redemption**: no me interesa.
+- **Animal Well**: no.
 
 Estas declaraciones expresan rechazo o falta de interés, pero no constituyen una puntuación ni permiten inferir experiencia jugada. Deben usarse como filtros de recomendación sin inventar valoraciones.
