@@ -4,6 +4,7 @@
 ## Records
 
 - [conscript](conscript.md)
+- [cyberpunk-2077](cyberpunk-2077.md)
 - [darkest-dungeon](darkest-dungeon.md)
 - [disco-elysium](disco-elysium.md)
 - [dishonored-2](dishonored-2.md)
