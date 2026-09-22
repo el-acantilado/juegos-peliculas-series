@@ -27,6 +27,7 @@
 - [patricks-parabox](patricks-parabox.md)
 - [pseudoregalia](pseudoregalia.md)
 - [severed-steel](severed-steel.md)
+- [sifu](sifu.md)
 - [starcraft-ii-wings-of-liberty](starcraft-ii-wings-of-liberty.md)
 - [super-mario-64](super-mario-64.md)
 - [system-shock-remake](system-shock-remake.md)
