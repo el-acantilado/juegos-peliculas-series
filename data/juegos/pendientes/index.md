@@ -22,6 +22,7 @@
 - [hyper-light-drifter](hyper-light-drifter.md)
 - [katana-zero](katana-zero.md)
 - [minishoot-adventures](minishoot-adventures.md)
+- [neon-white](neon-white.md)
 - [nine-sols](nine-sols.md)
 - [severed-steel](severed-steel.md)
 - [starcraft-ii-wings-of-liberty](starcraft-ii-wings-of-liberty.md)
