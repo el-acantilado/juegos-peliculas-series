@@ -43,6 +43,7 @@
 - [super-mario-world](super-mario-world.md)
 - [team-fortress-2](team-fortress-2.md)
 - [the-abbey-of-crime-extensum](the-abbey-of-crime-extensum.md)
+- [the-legend-of-zelda-ocarina-of-time](the-legend-of-zelda-ocarina-of-time.md)
 - [the-witness](the-witness.md)
 - [tom-clancys-rainbow-six-3-raven-shield](tom-clancys-rainbow-six-3-raven-shield.md)
 - [tom-clancys-rainbow-six-rogue-spear](tom-clancys-rainbow-six-rogue-spear.md)
