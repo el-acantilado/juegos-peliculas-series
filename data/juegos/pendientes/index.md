@@ -29,6 +29,7 @@
 - [super-mario-64](super-mario-64.md)
 - [system-shock-remake](system-shock-remake.md)
 - [system-shock](system-shock.md)
+- [taiji](taiji.md)
 - [trepang2](trepang2.md)
 - [tunic](tunic.md)
 - [turbo-overkill](turbo-overkill.md)
