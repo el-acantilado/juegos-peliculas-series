@@ -10,6 +10,7 @@
 - [dishonored-2](dishonored-2.md)
 - [dishonored](dishonored.md)
 - [fez](fez.md)
+- [outer-wilds](outer-wilds.md)
 - [prodeus](prodeus.md)
 - [rayman-legends](rayman-legends.md)
 - [sid-meiers-civilization](sid-meiers-civilization.md)
