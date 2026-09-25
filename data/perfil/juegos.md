@@ -55,3 +55,7 @@ Los demás juegos de Zelda no me han convencido. Ocarina of Time debe tratarse c
 - **Animal Well**: no.
 
 Estas declaraciones expresan rechazo o falta de interés, pero no constituyen una puntuación ni permiten inferir experiencia jugada. Deben usarse como filtros de recomendación sin inventar valoraciones.
+
+## Preferencias de recomendación
+
+Prefiero descubrir juegos menos populares y recibir candidatos nuevos antes que ver repetidos con frecuencia los mismos juegos ya sugeridos.
