@@ -10,6 +10,7 @@
 - [dishonored-2](dishonored-2.md)
 - [dishonored](dishonored.md)
 - [fez](fez.md)
+- [no-case-should-remain-unsolved](no-case-should-remain-unsolved.md)
 - [outer-wilds](outer-wilds.md)
 - [prodeus](prodeus.md)
 - [rayman-legends](rayman-legends.md)
