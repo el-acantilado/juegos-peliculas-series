@@ -20,6 +20,7 @@
 - [hotline-miami](hotline-miami.md)
 - [huntdown](huntdown.md)
 - [hyper-light-drifter](hyper-light-drifter.md)
+- [i-am-your-beast](i-am-your-beast.md)
 - [katana-zero](katana-zero.md)
 - [minishoot-adventures](minishoot-adventures.md)
 - [neon-white](neon-white.md)
