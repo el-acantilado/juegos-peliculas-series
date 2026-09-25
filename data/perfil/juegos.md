@@ -18,6 +18,12 @@ Me gustan especialmente obras como **Monkey Island 2** y **Day of the Tentacle**
 
 Que me guste el género no significa que quiera más point-and-click clásico tal cual: la interacción clásica puede ser una fricción. Al recomendar, valorar concepto, historia y humor, pero no recomendar únicamente por pertenecer al género.
 
+## Ritmo narrativo y texto
+
+La combinación de ritmo muy lento y exceso de texto es una incompatibilidad especialmente fuerte. **No Case Should Remain Unsolved** tiene una valoración de 1 por sentirse muy, muy lento y verboso; **Disco Elysium**, con una valoración de 5, también resulta aburrido por su verbosidad y sus diálogos.
+
+No se deben recomendar juegos principalmente narrativos o de investigación solo por su concepto cuando la interacción consiste en atravesar grandes cantidades de texto a un ritmo lento.
+
 ## Blendo Games
 
 **Gravity Bone** funciona como una excepción positiva: es corto, interesante y tiene una valoración de 8. El resto de juegos de Blendo Games que he probado no me han gustado.
