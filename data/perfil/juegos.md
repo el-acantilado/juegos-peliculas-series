@@ -18,6 +18,12 @@ Me gustan especialmente obras como **Monkey Island 2** y **Day of the Tentacle**
 
 Que me guste el género no significa que quiera más point-and-click clásico tal cual: la interacción clásica puede ser una fricción. Al recomendar, valorar concepto, historia y humor, pero no recomendar únicamente por pertenecer al género.
 
+## Puzles
+
+La afinidad con juegos de puzles no es automática y depende de la ejecución concreta. **Tactical Breach Wizards** tiene una valoración de 4 porque no me gustaron ni sus puzles ni su estilo.
+
+Este rechazo no debe generalizarse a todos los puzles, dada la evidencia positiva de **Portal**, **Portal 2**, **The Witness**, **Braid**, **Return of the Obra Dinn** y **Unheard: Voices of Crime**.
+
 ## Ritmo narrativo y texto
 
 La combinación de ritmo muy lento y exceso de texto es una incompatibilidad especialmente fuerte. **No Case Should Remain Unsolved** tiene una valoración de 1 por sentirse muy, muy lento y verboso; **Disco Elysium**, con una valoración de 5, también resulta aburrido por su verbosidad y sus diálogos.
