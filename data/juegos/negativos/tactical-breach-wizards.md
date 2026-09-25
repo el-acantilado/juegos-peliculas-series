@@ -3,9 +3,13 @@ tipo: juego
 titulo: Tactical Breach Wizards
 valoracion: 4
 experiencia: jugado
-opinion: "No me gustó. 4/10."
+opinion: "No me gustaron los puzles ni el estilo. 4/10."
 negativo:
-  - no me gustó
-jugabilidad: La experiencia no me gustó.
+  - puzles que no me gustaron
+  - estilo que no me gustó
+fricciones:
+  - puzles
+  - estilo
+jugabilidad: Los puzles no me gustaron.
 ---
 # Tactical Breach Wizards
