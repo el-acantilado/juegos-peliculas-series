@@ -14,6 +14,7 @@
 - [call-of-juarez](call-of-juarez.md)
 - [commander-keen-4](commander-keen-4.md)
 - [commandos-2](commandos-2.md)
+- [crow-country](crow-country.md)
 - [deus-ex](deus-ex.md)
 - [doom-1993](doom-1993.md)
 - [duke-nukem-3d](duke-nukem-3d.md)
