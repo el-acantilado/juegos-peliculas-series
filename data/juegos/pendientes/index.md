@@ -6,6 +6,7 @@
 - [black-mesa](black-mesa.md)
 - [blade-runner](blade-runner.md)
 - [bulletstorm-full-clip-edition](bulletstorm-full-clip-edition.md)
+- [cairn](cairn.md)
 - [call-of-juarez-gunslinger](call-of-juarez-gunslinger.md)
 - [candleman](candleman.md)
 - [celeste](celeste.md)
