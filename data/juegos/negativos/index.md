@@ -9,6 +9,7 @@
 - [disco-elysium](disco-elysium.md)
 - [dishonored-2](dishonored-2.md)
 - [dishonored](dishonored.md)
+- [fear-the-spotlight](fear-the-spotlight.md)
 - [fez](fez.md)
 - [no-case-should-remain-unsolved](no-case-should-remain-unsolved.md)
 - [outer-wilds](outer-wilds.md)
