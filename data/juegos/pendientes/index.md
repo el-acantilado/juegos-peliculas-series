@@ -14,6 +14,7 @@
 - [cultic](cultic.md)
 - [door-kickers-2-task-force-north](door-kickers-2-task-force-north.md)
 - [fallen-aces](fallen-aces.md)
+- [ghost-of-a-tale](ghost-of-a-tale.md)
 - [gravity-circuit](gravity-circuit.md)
 - [hades-ii](hades-ii.md)
 - [hades](hades.md)
