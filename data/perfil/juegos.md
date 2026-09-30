@@ -80,3 +80,5 @@ Estas declaraciones expresan rechazo o falta de interés, pero no constituyen un
 Prefiero descubrir juegos menos populares y recibir candidatos nuevos antes que ver repetidos con frecuencia los mismos juegos ya sugeridos.
 
 Quiero recomendaciones con una identidad interesante y propia, no una acumulación de juegos que se parezcan superficialmente a una obra que me gustó.
+
+Cuando pido aventuras, busco rarezas indie excelentes que transmitan una travesía real: mundo, recorrido, descubrimiento, peligro y progresión. No busco simplemente puzles abstractos, una mecánica ingeniosa aislada ni imitaciones superficiales de otros juegos.
