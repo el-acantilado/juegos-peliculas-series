@@ -11,6 +11,7 @@
 - [dishonored](dishonored.md)
 - [fear-the-spotlight](fear-the-spotlight.md)
 - [fez](fez.md)
+- [hyper-light-drifter](hyper-light-drifter.md)
 - [no-case-should-remain-unsolved](no-case-should-remain-unsolved.md)
 - [outer-wilds](outer-wilds.md)
 - [prodeus](prodeus.md)
