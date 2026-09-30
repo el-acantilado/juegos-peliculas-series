@@ -26,6 +26,7 @@
 - [minishoot-adventures](minishoot-adventures.md)
 - [neon-white](neon-white.md)
 - [nine-sols](nine-sols.md)
+- [olija](olija.md)
 - [patricks-parabox](patricks-parabox.md)
 - [pseudoregalia](pseudoregalia.md)
 - [severed-steel](severed-steel.md)
