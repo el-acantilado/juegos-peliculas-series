@@ -12,6 +12,8 @@ Me funcionan la interacción con ritmo, la respuesta clara y la variedad de juga
 
 Una buena idea pierde valor si jugarla se vuelve lento, repetitivo o poco responsivo. Esto ayuda a explicar mis reacciones a **Kingdom Two Crowns**, **Commandos 2**, **Prodeus**, **Darkest Dungeon**, **Intravenous 2** y **Dishonored**. No se debe inferir afinidad solo porque un juego sea sistémico.
 
+La demo de **Fear the Spotlight** me resultó aburrida y tiene una valoración de 5. La afinidad con el terror clásico o con **Crow Country** no compensa por sí sola una interacción que no consiga interesarme.
+
 ## Aventuras gráficas
 
 Me gustan especialmente obras como **Monkey Island 2** y **Day of the Tentacle** por su concepto, historia y humor. A la vez, siento que la jugabilidad clásica point-and-click ha envejecido bastante.
@@ -44,7 +46,7 @@ No se debe inferir afinidad por otros juegos únicamente porque sean de Blendo G
 
 **Stardew Valley** tiene una valoración de 5 porque se siente muy lento. Las experiencias deliberadamente pausadas son un riesgo claro si no sostienen el ritmo mediante una interacción suficientemente atractiva.
 
-## Estilo visual y nivel de acabado
+## Estilo visual, originalidad y nivel de acabado
 
 El estilo visual importa tanto como la propuesta mecánica. No basta con que un juego tenga sistemas interesantes si su presentación se percibe como chatarra, demasiado cruda, barata o propia de un nicho raro.
 
@@ -52,7 +54,9 @@ No rechazo automáticamente lo antiguo, lo retro o lo estilizado: **Doom**, **Qu
 
 **Taiji** ya está adquirido pero su presentación todavía no me convence. **Pseudoregalia** queda pendiente con la misma duda. **AMID EVIL** genera dudas por su estilo y por el posible diseño laberíntico de sus niveles. **Animal Well** no me interesa.
 
-Al recomendar, filtrar primero por estilo, cohesión visual y nivel de acabado. No sugerir rarezas de nicho o producciones deliberadamente ásperas únicamente porque sus mecánicas coincidan sobre el papel.
+También necesito que una recomendación tenga identidad propia. **Hollowbody** se ve demasiado clon; una semejanza superficial con un favorito no basta para volver interesante una propuesta.
+
+Al recomendar, filtrar primero por estilo, cohesión visual, originalidad percibida y nivel de acabado. No sugerir rarezas de nicho o producciones deliberadamente ásperas únicamente porque sus mecánicas coincidan sobre el papel.
 
 ## Zelda
 
@@ -65,9 +69,14 @@ Los demás juegos de Zelda no me han convencido. Ocarina of Time debe tratarse c
 - **Elden Ring**: no.
 - **Red Dead Redemption**: no me interesa.
 - **Animal Well**: no.
+- **Resident Evil 2 Remake**: no me llama la atención; preferiría el original, aunque tampoco me mata por jugarlo.
+- **Sorry We’re Closed**: no me gusta el estilo.
+- **Hollowbody**: se ve demasiado clon.
 
 Estas declaraciones expresan rechazo o falta de interés, pero no constituyen una puntuación ni permiten inferir experiencia jugada. Deben usarse como filtros de recomendación sin inventar valoraciones.
 
 ## Preferencias de recomendación
 
 Prefiero descubrir juegos menos populares y recibir candidatos nuevos antes que ver repetidos con frecuencia los mismos juegos ya sugeridos.
+
+Quiero recomendaciones con una identidad interesante y propia, no una acumulación de juegos que se parezcan superficialmente a una obra que me gustó.
