@@ -1,14 +1,18 @@
 ---
 tipo: juego
-titulo: Super Mario World
+titulo: "Super Mario World"
 valoracion: 10
 experiencia: jugado
-opinion: Me encanta. Es mi plataformero favorito de consola.
+estado: jugado
+confianza: alta
 positivo:
-  - me encanta
-  - mi plataformero favorito de consola
+  - "Mi plataformero favorito de consolas."
+  - "Excelente equilibrio entre simplicidad, reto y variedad orgánica."
+  - "Movimiento fluido y diseño de niveles sólido."
+negativo: []
 detalles:
-  - referente personal de plataformas en consola
+  - "jugado, favorito de consola."
+opinion: Me encanta. Es mi plataformero favorito de consola.
 jugabilidad: Mi experiencia favorita de plataformas en consola.
 ---
 # Super Mario World
