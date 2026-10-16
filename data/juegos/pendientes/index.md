@@ -13,6 +13,7 @@
 - [chants-of-sennaar](chants-of-sennaar.md)
 - [cocoon](cocoon.md)
 - [commander-keen-5](commander-keen-5.md)
+- [commander-keen-6](commander-keen-6.md)
 - [ctrl-alt-ego](ctrl-alt-ego.md)
 - [cultic](cultic.md)
 - [door-kickers-2-task-force-north](door-kickers-2-task-force-north.md)
