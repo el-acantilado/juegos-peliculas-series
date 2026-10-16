@@ -39,6 +39,7 @@
 - [portal-2](portal-2.md)
 - [portal](portal.md)
 - [prince-of-persia-1](prince-of-persia-1.md)
+- [prince-of-persia-2](prince-of-persia-2.md)
 - [quake-1996](quake-1996.md)
 - [return-of-the-obra-dinn](return-of-the-obra-dinn.md)
 - [rise-of-the-triad](rise-of-the-triad.md)
