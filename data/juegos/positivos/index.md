@@ -33,6 +33,7 @@
 - [kill-the-crows](kill-the-crows.md)
 - [kingdom-two-crowns](kingdom-two-crowns.md)
 - [machinarium](machinarium.md)
+- [monster-bash](monster-bash.md)
 - [pathologic-2](pathologic-2.md)
 - [plants-vs-zombies](plants-vs-zombies.md)
 - [portal-2](portal-2.md)
