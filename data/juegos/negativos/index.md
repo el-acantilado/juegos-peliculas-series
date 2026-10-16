@@ -7,6 +7,7 @@
 - [commander-keen-2](commander-keen-2.md)
 - [commander-keen-3](commander-keen-3.md)
 - [conscript](conscript.md)
+- [crystal-caves](crystal-caves.md)
 - [cyberpunk-2077](cyberpunk-2077.md)
 - [darkest-dungeon](darkest-dungeon.md)
 - [disco-elysium](disco-elysium.md)
