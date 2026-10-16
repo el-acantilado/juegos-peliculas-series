@@ -14,6 +14,7 @@
 - [dishonored-2](dishonored-2.md)
 - [dishonored](dishonored.md)
 - [duke-nukem-1](duke-nukem-1.md)
+- [duke-nukem-2](duke-nukem-2.md)
 - [fear-the-spotlight](fear-the-spotlight.md)
 - [fez](fez.md)
 - [hyper-light-drifter](hyper-light-drifter.md)
