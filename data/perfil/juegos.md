@@ -82,3 +82,17 @@ Prefiero descubrir juegos menos populares y recibir candidatos nuevos antes que 
 Quiero recomendaciones con una identidad interesante y propia, no una acumulación de juegos que se parezcan superficialmente a una obra que me gustó.
 
 Cuando pido aventuras, busco rarezas indie excelentes que transmitan una travesía real: mundo, recorrido, descubrimiento, peligro y progresión. No busco simplemente puzles abstractos, una mecánica ingeniosa aislada ni imitaciones superficiales de otros juegos.
+
+## Plataformas clásicos: referente y preferencias
+
+Commander Keen 4 es mi referente máximo (10/10). Valoro el diseño artesanal, complejo y memorable, múltiples rutas, secretos y exploración dentro de cada nivel; cada nivel puede funcionar como un pequeño metroidvania. Busco mecánicas simples con profundidad técnica, como el pogo, equilibrio entre exploración relajada y retos exigentes, y movimiento fluido, preciso y expresivo. La variedad debe venir de la estructura de los niveles y situaciones, no solo de enemigos o colores.
+
+Valoro pixel art con identidad, personalidad y coherencia, paletas limitadas bien aprovechadas (especialmente EGA), tiles con volumen, profundidad y arquitectura visual, ambientación consistente y música que refuerza la identidad. Crecí jugando en PC y tengo una inclinación fuerte hacia la escuela occidental PC/MS-DOS. No rechazo consolas ni juegos japoneses por principio, aunque su estética y filosofía suelen atraerme menos; Super Mario World es mi favorito de consola (10/10).
+
+Me disgustan los plataformas genéricos o repetitivos, los niveles monótonos visual o estructuralmente, el movimiento lento, torpe o rígido y el pixel art sin personalidad aunque sea técnicamente competente. La antigüedad o pertenecer a Apogee no bastan: importan el refinamiento y la calidad del diseño. Monster Bash (9/10) conserva mucho encanto y una cauchera divertida, con fricción por el movimiento lento y tosco.
+
+Another World y Prince of Persia 1 y 2 tienen 10/10, pero su filosofía cinematográfica es distinta del control ágil e inmediato de Keen 4. Mi aprecio por ellos no implica que busque más plataformas cinematográficos. Prince of Persia 2 tiene bugs y partes poco pulidas.
+
+Keen 5 y 6 quedan pendientes: no recuerdo cuál probé y la impresión de monotonía no debe atribuirse a uno específico. Atroxian Realm queda pendiente, con interés por la exploración y dudas fuertes sobre su dirección artística. Estos pendientes no aportan un veredicto al perfil.
+
+La última frase del documento aportado («Juegos antiguos cuya jugabilidad ya no sostiene») está truncada; no se ha completado ni interpretado como una preferencia adicional.
