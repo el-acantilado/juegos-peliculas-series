@@ -76,3 +76,9 @@ Cada registro representa la evaluación vigente de una obra. La partición expre
 - [x] Compatibilidad con la configuración preliminar.
 - [x] Propuesta final aprobada explícitamente.
 - [x] Artefactos persistidos y verificados.
+
+## Actualización explícita: plataformas clásicos (2026-10-16)
+
+Para las fichas actualizadas con esta solicitud, `valoracion` admite enteros de 0 a 10 y `null` cuando no hay nota explícita. La nota sigue siendo personal y editable; una valoración de un aspecto no se convierte en nota general. Se conserva `experiencia` y se añade `estado` con jugado / probado / pendiente / descartado. `confianza` se guarda como alta / media / baja, inferida de la especificidad y certeza de la opinión, no como puntuación del usuario. `positivo` y `negativo` corresponden a pros y contras y pueden estar vacíos cuando no hay aspectos confirmados.
+
+La petición explícita de pendientes prima sobre la banda numérica: una obra pedida como pendiente puede conservar una puntuación provisional sin pesar en el perfil. Una nota de 0 se clasifica en negativos. Se conservan identidades y experiencias inciertas expresamente como provisionales; no se normalizan sin confirmación. Estas reglas prevalecen sobre las restricciones anteriores incompatibles y no reinterpretan registros históricos.
