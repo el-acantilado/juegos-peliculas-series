@@ -5,6 +5,7 @@
 
 - [commander-keen-1](commander-keen-1.md)
 - [commander-keen-2](commander-keen-2.md)
+- [commander-keen-3](commander-keen-3.md)
 - [conscript](conscript.md)
 - [cyberpunk-2077](cyberpunk-2077.md)
 - [darkest-dungeon](darkest-dungeon.md)
